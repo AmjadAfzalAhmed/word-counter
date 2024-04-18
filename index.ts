@@ -1,7 +1,7 @@
 #! /usr/bin/env node
 
 import inquirer from "inquirer";
-import chalk from "chalk",
+import chalk from "chalk";
 
 async function wordCount(){
     let answers = await inquirer.prompt([
